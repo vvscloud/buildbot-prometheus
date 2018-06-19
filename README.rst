@@ -29,7 +29,7 @@ check the metrics service using the simple command line tool *curl*:
 
 .. code-block:: console
 
-    $ curl -s localhost:9100/metrics | grep -v "#" | sort
+    $ curl -s localhost:9101/metrics | grep -v "#" | sort
     buildbot_build_requests_duration_seconds{builder_id="1"} 2.0
     buildbot_build_requests_success{builder_id="1"} 1.0
     buildbot_builders_running_total 1.0
